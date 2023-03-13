@@ -5,7 +5,7 @@ This repository can be used for porting parts of the ODMB7 firmware from the ODM
 ## Structure
 
 ### ODMB firmware
-The top module of ODMB firmware is contained in the interface [odmb7_ucsb_dev.vhd](/source/odmb7_ucsb_dev.vhd), which then manages signals and sends them to
+The top module of ODMB firmware is contained in the interface [odmb7_ucsb_top.vhd](/source/odmb7_ucsb_top.vhd), which then manages signals and sends them to
 appropriate submodules as they are ported. 
 
 #### Porting guidelines
