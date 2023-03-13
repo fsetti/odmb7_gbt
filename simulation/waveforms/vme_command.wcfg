@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Firmware_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Firmware_tb" />
+            <top_module name="firmware_pkg" />
+            <top_module name="glbl" />
+            <top_module name="latches_flipflops" />
+            <top_module name="ucsb_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="20617515fs"></ZoomStartTime>
+      <ZoomEndTime time="21690888fs"></ZoomEndTime>
+      <Cursor1Time time="20232893fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="107"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wave_markers>
+      <marker label="" time="669732" />
+   </wave_markers>
+   <wvobject type="array" fp_name="/Firmware_tb/waitCounter">
+      <obj_property name="ElementShortName">waitCounter[8:0]</obj_property>
+      <obj_property name="ObjectShortName">waitCounter[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/inputCounter">
+      <obj_property name="ElementShortName">inputCounter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">inputCounter[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/lut_input1_dout_c">
+      <obj_property name="ElementShortName">lut_input1_dout_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lut_input1_dout_c[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/lut_input2_dout_c">
+      <obj_property name="ElementShortName">lut_input2_dout_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lut_input2_dout_c[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/SLOWCLK">
+      <obj_property name="ElementShortName">SLOWCLK</obj_property>
+      <obj_property name="ObjectShortName">SLOWCLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/GAP">
+      <obj_property name="ElementShortName">GAP</obj_property>
+      <obj_property name="ObjectShortName">GAP</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/GA">
+      <obj_property name="ElementShortName">GA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">GA[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/ADR">
+      <obj_property name="ElementShortName">ADR[23:1]</obj_property>
+      <obj_property name="ObjectShortName">ADR[23:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/AM">
+      <obj_property name="ElementShortName">AM[5:0]</obj_property>
+      <obj_property name="ObjectShortName">AM[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/AS">
+      <obj_property name="ElementShortName">AS</obj_property>
+      <obj_property name="ObjectShortName">AS</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/DS0">
+      <obj_property name="ElementShortName">DS0</obj_property>
+      <obj_property name="ObjectShortName">DS0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/DS1">
+      <obj_property name="ElementShortName">DS1</obj_property>
+      <obj_property name="ObjectShortName">DS1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/LWORD">
+      <obj_property name="ElementShortName">LWORD</obj_property>
+      <obj_property name="ObjectShortName">LWORD</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/WRITER">
+      <obj_property name="ElementShortName">WRITER</obj_property>
+      <obj_property name="ObjectShortName">WRITER</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/IACK">
+      <obj_property name="ElementShortName">IACK</obj_property>
+      <obj_property name="ObjectShortName">IACK</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/DEVICE">
+      <obj_property name="ElementShortName">DEVICE[9:0]</obj_property>
+      <obj_property name="ObjectShortName">DEVICE[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/STROBE">
+      <obj_property name="ElementShortName">STROBE</obj_property>
+      <obj_property name="ObjectShortName">STROBE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/COMMAND">
+      <obj_property name="ElementShortName">COMMAND[9:0]</obj_property>
+      <obj_property name="ObjectShortName">COMMAND[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/ADRS">
+      <obj_property name="ElementShortName">ADRS[17:2]</obj_property>
+      <obj_property name="ObjectShortName">ADRS[17:2]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/TOVME_B">
+      <obj_property name="ElementShortName">TOVME_B</obj_property>
+      <obj_property name="ObjectShortName">TOVME_B</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/DOE_B">
+      <obj_property name="ElementShortName">DOE_B</obj_property>
+      <obj_property name="ObjectShortName">DOE_B</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/AMS">
+      <obj_property name="ElementShortName">AMS[5:0]</obj_property>
+      <obj_property name="ObjectShortName">AMS[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/VALIDAM">
+      <obj_property name="ElementShortName">VALIDAM</obj_property>
+      <obj_property name="ObjectShortName">VALIDAM</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/VALIDGA">
+      <obj_property name="ElementShortName">VALIDGA</obj_property>
+      <obj_property name="ObjectShortName">VALIDGA</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/COMMAND_PM/OLDCRATE">
+      <obj_property name="ElementShortName">OLDCRATE</obj_property>
+      <obj_property name="ObjectShortName">OLDCRATE</obj_property>
+   </wvobject>
+</wave_config>

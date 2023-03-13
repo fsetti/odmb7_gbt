@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Firmware_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Firmware_tb" />
+            <top_module name="firmware_pkg" />
+            <top_module name="glbl" />
+            <top_module name="latches_flipflops" />
+            <top_module name="ucsb_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2201388fs"></ZoomEndTime>
+      <Cursor1Time time="91634fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="143"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="62" />
+   <wave_markers>
+      <marker label="" time="594762" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/Firmware_tb/sysclk">
+      <obj_property name="ElementShortName">sysclk</obj_property>
+      <obj_property name="ObjectShortName">sysclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/sysclkQuarter">
+      <obj_property name="ElementShortName">sysclkQuarter</obj_property>
+      <obj_property name="ObjectShortName">sysclkQuarter</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/waitCounter">
+      <obj_property name="ElementShortName">waitCounter[8:0]</obj_property>
+      <obj_property name="ObjectShortName">waitCounter[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/inputCounter">
+      <obj_property name="ElementShortName">inputCounter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">inputCounter[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/rst_global">
+      <obj_property name="ElementShortName">rst_global</obj_property>
+      <obj_property name="ObjectShortName">rst_global</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/nextcmd">
+      <obj_property name="ElementShortName">nextcmd</obj_property>
+      <obj_property name="ObjectShortName">nextcmd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/cack">
+      <obj_property name="ElementShortName">cack</obj_property>
+      <obj_property name="ObjectShortName">cack</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/vme_data_in">
+      <obj_property name="ElementShortName">vme_data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vme_data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/dl_jtag_tck">
+      <obj_property name="ElementShortName">dl_jtag_tck[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dl_jtag_tck[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dl_jtag_tms">
+      <obj_property name="ElementShortName">dl_jtag_tms</obj_property>
+      <obj_property name="ObjectShortName">dl_jtag_tms</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dl_jtag_tdi">
+      <obj_property name="ElementShortName">dl_jtag_tdi</obj_property>
+      <obj_property name="ObjectShortName">dl_jtag_tdi</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/dl_jtag_tdo">
+      <obj_property name="ElementShortName">dl_jtag_tdo[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dl_jtag_tdo[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dcfeb_initjtag">
+      <obj_property name="ElementShortName">dcfeb_initjtag</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_initjtag</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/lut_input_addr1_s">
+      <obj_property name="ElementShortName">lut_input_addr1_s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">lut_input_addr1_s[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/lut_input_addr2_s">
+      <obj_property name="ElementShortName">lut_input_addr2_s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">lut_input_addr2_s[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/lut_input1_dout_c">
+      <obj_property name="ElementShortName">lut_input1_dout_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lut_input1_dout_c[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/lut_input2_dout_c">
+      <obj_property name="ElementShortName">lut_input2_dout_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lut_input2_dout_c[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/vme_addr">
+      <obj_property name="ElementShortName">vme_addr[23:1]</obj_property>
+      <obj_property name="ObjectShortName">vme_addr[23:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/vme_dtack">
+      <obj_property name="ElementShortName">vme_dtack</obj_property>
+      <obj_property name="ObjectShortName">vme_dtack</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/cmddev">
+      <obj_property name="ElementShortName">cmddev[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cmddev[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/dl_jtag_tck">
+      <obj_property name="ElementShortName">dl_jtag_tck[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dl_jtag_tck[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dl_jtag_tms">
+      <obj_property name="ElementShortName">dl_jtag_tms</obj_property>
+      <obj_property name="ObjectShortName">dl_jtag_tms</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dl_jtag_tdi">
+      <obj_property name="ElementShortName">dl_jtag_tdi</obj_property>
+      <obj_property name="ObjectShortName">dl_jtag_tdi</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/dl_jtag_tdo">
+      <obj_property name="ElementShortName">dl_jtag_tdo[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dl_jtag_tdo[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/dcfeb_done">
+      <obj_property name="ElementShortName">dcfeb_done[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_done[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/dcfeb_tck_p">
+      <obj_property name="ElementShortName">dcfeb_tck_p[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_tck_p[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dcfeb_initjtag">
+      <obj_property name="ElementShortName">dcfeb_initjtag</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_initjtag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/cack">
+      <obj_property name="ElementShortName">cack</obj_property>
+      <obj_property name="ObjectShortName">cack</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider293" type="divider">
+      <obj_property name="label">ODMB_top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/odmb_i/dcfeb_tck">
+      <obj_property name="ElementShortName">dcfeb_tck[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_tck[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/dcfeb_tms">
+      <obj_property name="ElementShortName">dcfeb_tms</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_tms</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/DCFEB_TMS_P">
+      <obj_property name="ElementShortName">DCFEB_TMS_P</obj_property>
+      <obj_property name="ObjectShortName">DCFEB_TMS_P</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/DCFEB_TMS_N">
+      <obj_property name="ElementShortName">DCFEB_TMS_N</obj_property>
+      <obj_property name="ObjectShortName">DCFEB_TMS_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/dcfeb_tdi">
+      <obj_property name="ElementShortName">dcfeb_tdi</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_tdi</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/odmb_i/dcfeb_tdo">
+      <obj_property name="ElementShortName">dcfeb_tdo[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_tdo[7:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider370" type="divider">
+      <obj_property name="label">ODMB_VME</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/DCFEB_TCK">
+      <obj_property name="ElementShortName">DCFEB_TCK[7:1]</obj_property>
+      <obj_property name="ObjectShortName">DCFEB_TCK[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/DCFEB_TMS">
+      <obj_property name="ElementShortName">DCFEB_TMS</obj_property>
+      <obj_property name="ObjectShortName">DCFEB_TMS</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/DCFEB_TDI">
+      <obj_property name="ElementShortName">DCFEB_TDI</obj_property>
+      <obj_property name="ObjectShortName">DCFEB_TDI</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/DCFEB_TDO">
+      <obj_property name="ElementShortName">DCFEB_TDO[7:1]</obj_property>
+      <obj_property name="ObjectShortName">DCFEB_TDO[7:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider375" type="divider">
+      <obj_property name="label">CFEBJTAG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/DEV1_CFEBJTAG/TCK">
+      <obj_property name="ElementShortName">TCK[7:1]</obj_property>
+      <obj_property name="ObjectShortName">TCK[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/DEV1_CFEBJTAG/TDI">
+      <obj_property name="ElementShortName">TDI</obj_property>
+      <obj_property name="ObjectShortName">TDI</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/DEV1_CFEBJTAG/TMS">
+      <obj_property name="ElementShortName">TMS</obj_property>
+      <obj_property name="ObjectShortName">TMS</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/DEV1_CFEBJTAG/TDO">
+      <obj_property name="ElementShortName">TDO</obj_property>
+      <obj_property name="ObjectShortName">TDO</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/odmb_i/i_odmb_vme/DEV1_CFEBJTAG/DTACK">
+      <obj_property name="ElementShortName">DTACK</obj_property>
+      <obj_property name="ObjectShortName">DTACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider386" type="divider">
+      <obj_property name="label">DCFEB_sim</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dcfeb_i/trst">
+      <obj_property name="ElementShortName">trst</obj_property>
+      <obj_property name="ObjectShortName">trst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dcfeb_i/tck">
+      <obj_property name="ElementShortName">tck</obj_property>
+      <obj_property name="ObjectShortName">tck</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dcfeb_i/tms">
+      <obj_property name="ElementShortName">tms</obj_property>
+      <obj_property name="ObjectShortName">tms</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dcfeb_i/tdi">
+      <obj_property name="ElementShortName">tdi</obj_property>
+      <obj_property name="ObjectShortName">tdi</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dcfeb_i/tdo">
+      <obj_property name="ElementShortName">tdo</obj_property>
+      <obj_property name="ObjectShortName">tdo</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider394" type="divider">
+      <obj_property name="label">Firmware_tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/dl_jtag_tck">
+      <obj_property name="ElementShortName">dl_jtag_tck[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dl_jtag_tck[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dl_jtag_tms">
+      <obj_property name="ElementShortName">dl_jtag_tms</obj_property>
+      <obj_property name="ObjectShortName">dl_jtag_tms</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dl_jtag_tdi">
+      <obj_property name="ElementShortName">dl_jtag_tdi</obj_property>
+      <obj_property name="ObjectShortName">dl_jtag_tdi</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/dl_jtag_tdo">
+      <obj_property name="ElementShortName">dl_jtag_tdo[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dl_jtag_tdo[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dcfeb_tms_p">
+      <obj_property name="ElementShortName">dcfeb_tms_p</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_tms_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Firmware_tb/dcfeb_tms_n">
+      <obj_property name="ElementShortName">dcfeb_tms_n</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_tms_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/dcfeb_tdo_p">
+      <obj_property name="ElementShortName">dcfeb_tdo_p[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_tdo_p[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/dcfeb_tdo_n">
+      <obj_property name="ElementShortName">dcfeb_tdo_n[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_tdo_n[7:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Firmware_tb/dcfeb_tdo_t">
+      <obj_property name="ElementShortName">dcfeb_tdo_t[7:1]</obj_property>
+      <obj_property name="ObjectShortName">dcfeb_tdo_t[7:1]</obj_property>
+   </wvobject>
+</wave_config>

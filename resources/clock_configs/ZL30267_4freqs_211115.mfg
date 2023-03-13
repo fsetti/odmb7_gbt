@@ -1,0 +1,144 @@
+; Device Id            : ZL30267
+; Device Revision      : 2
+; GUI Version          : 1.7
+; File Generation Date : Monday, November 15, 2021 1:37:11 PM
+;======================================================================
+
+; NOTE1:
+; This is an incremental configuration script.  It assumes all device
+; registers are in reset default state before the script is run.
+; Correct behavior cannot be guaranteed if the device is not in its
+; reset default state before this script is run.
+
+; NOTE2:
+; For proper device operation, all register write and wait commands in
+; this file must be performed in the sequence listed.
+
+;======================================================================
+
+; Configuration script commands
+
+; 1.  Register Write Command:
+;        X , <register_address> , <data_byte>
+;        Both <register_address> and <data_byte> are in hexadecimal
+;        format and must have the "0x" prefix.
+
+; 2.  Wait Command:
+;        W , <time_microseconds>
+;        The wait time is specified in microseconds.
+
+;======================================================================
+
+; The following lines are used only for the evaluation board GUI:
+
+; XA Input Frequency Hz     = 50000000    * (1) / (1)
+; IC1 Input Frequency Hz    = 40078970    * (1) / (1)
+; IC2 Input Frequency Hz    = 80000000    * (1) / (1)
+; IC3 Input Frequency Hz    = 50000000    * (1) / (1)
+; APLL1 VCO Frequency Hz    = 3847581120  * (1) / (1)
+; FDIV1 Output Frequency Hz = 320000000   * (1) / (1)
+; APLL2 VCO Frequency Hz    = 3840000000  * (1) / (1)
+; FDIV2 Output Frequency Hz = 384000000   * (1) / (1)
+; VDDH = 3.3 V
+; VDDL = 3.3 V
+; VDDOA = 3.3 V, VDDOB = 3.3 V, VDDOC = 3.3 V, VDDOD = 3.3 V, VDDOE = 3.3 V, VDDOF = 3.3 V
+; LoadCap OC1=5.00, OC2=5.00, OC3=5.00, OC4=5.00, OC5=5.00, OC6=5.00, OC7=5.00, OC8=5.00, OC9=5.00, OC10=5.00
+
+;======================================================================
+
+; Register Configuration Start
+
+X , 0x0400 , 0x1A  ;  ACOFF0L
+X , 0x0402 , 0xC5  ;  ACOFF1L
+X , 0x0404 , 0x88  ;  ACOFF2L
+X , 0x0405 , 0x01  ;  ACOFF2U
+X , 0x0406 , 0x4F  ;  ACOFF3L
+X , 0x0407 , 0x02  ;  ACOFF3U
+X , 0x0423 , 0x08  ;  DTCR7
+X , 0x0424 , 0x08  ;  DTCR8
+X , 0x0003 , 0x03  ;  PLLEN
+X , 0x0004 , 0x03  ;  ICEN
+X , 0x0005 , 0xFF  ;  OCEN1
+X , 0x0006 , 0x01  ;  OCEN2
+X , 0x0007 , 0x08  ;  OCMUX1
+X , 0x0008 , 0x3C  ;  OCMUX2
+X , 0x0100 , 0x04  ;  ACR1
+X , 0x0101 , 0x08  ;  ACR2
+X , 0x0102 , 0x00  ;  ACR3
+X , 0x0106 , 0x00  ;  AFBDIV
+X , 0x0107 , 0x00  ;  AFBDIV
+X , 0x0108 , 0x00  ;  AFBDIV
+X , 0x0109 , 0x00  ;  AFBDIV
+X , 0x010A , 0xC0  ;  AFBDIV
+X , 0x010B , 0x00  ;  AFBDIV
+X , 0x0121 , 0x60  ;  ACR6
+X , 0x0127 , 0x90  ;  ACR12
+X , 0x0141 , 0x31  ;  F1DIV
+X , 0x0142 , 0xE8  ;  F1DIV
+X , 0x0143 , 0x84  ;  F1DIV
+X , 0x0144 , 0x30  ;  F1DIV
+X , 0x0145 , 0x60  ;  F1DIV
+X , 0x0146 , 0x80  ;  F1DEN
+X , 0x0147 , 0x84  ;  F1DEN
+X , 0x0148 , 0x1E  ;  F1DEN
+X , 0x014A , 0x80  ;  F1REM
+X , 0x014B , 0xA3  ;  F1REM
+X , 0x014C , 0x14  ;  F1REM
+X , 0x0153 , 0x00  ;  F1DTEST3
+X , 0x0154 , 0x40  ;  F1ATEST1
+X , 0x0155 , 0xCE  ;  F1ATEST2
+X , 0x0180 , 0x04  ;  A2CR1
+X , 0x0182 , 0x01  ;  A2CR3
+X , 0x0186 , 0x00  ;  A2FBDIV
+X , 0x0187 , 0x00  ;  A2FBDIV
+X , 0x0188 , 0x00  ;  A2FBDIV
+X , 0x0189 , 0x00  ;  A2FBDIV
+X , 0x018A , 0x60  ;  A2FBDIV
+X , 0x018B , 0x00  ;  A2FBDIV
+X , 0x01A7 , 0x90  ;  A2CR12
+X , 0x01C1 , 0x00  ;  F2DIV
+X , 0x01C2 , 0x00  ;  F2DIV
+X , 0x01C3 , 0x00  ;  F2DIV
+X , 0x01C4 , 0x00  ;  F2DIV
+X , 0x01C5 , 0x50  ;  F2DIV
+X , 0x01D3 , 0x00  ;  F2DTEST3
+X , 0x01D4 , 0x40  ;  F2ATEST1
+X , 0x01D5 , 0x0E  ;  F2ATEST2
+X , 0x0200 , 0x82  ;  OC1CR1
+X , 0x0201 , 0x01  ;  OC1CR2
+X , 0x0210 , 0x82  ;  OC2CR1
+X , 0x0211 , 0x01  ;  OC2CR2
+X , 0x0220 , 0x83  ;  OC3CR1
+X , 0x0221 , 0x01  ;  OC3CR2
+X , 0x0230 , 0x83  ;  OC4CR1
+X , 0x0231 , 0x01  ;  OC4CR2
+X , 0x0240 , 0x83  ;  OC5CR1
+X , 0x0241 , 0x01  ;  OC5CR2
+X , 0x0250 , 0x87  ;  OC6CR1
+X , 0x0251 , 0x01  ;  OC6CR2
+X , 0x0260 , 0x87  ;  OC7CR1
+X , 0x0261 , 0x01  ;  OC7CR2
+X , 0x0270 , 0x82  ;  OC8CR1
+X , 0x0271 , 0x35  ;  OC8CR2
+X , 0x0280 , 0xFC  ;  OC9CR1
+X , 0x0281 , 0x35  ;  OC9CR2
+X , 0x0284 , 0x10  ;  OC9CR3
+X , 0x0285 , 0x3F  ;  OC9DIV
+X , 0x0286 , 0x01  ;  OC9DIV
+X , 0x0290 , 0x89  ;  OC10CR1
+X , 0x0430 , 0x0C  ;  A1TCR13
+X , 0x0430 , 0x00  ;  A1TCR13
+X , 0x0435 , 0x0C  ;  A2TCR13
+X , 0x0435 , 0x00  ;  A2TCR13
+W , 2000
+
+X , 0x0100 , 0x44  ;  ACR1
+X , 0x0100 , 0x04  ;  ACR1
+
+X , 0x0180 , 0x44  ;  A2CR1
+X , 0x0180 , 0x04  ;  A2CR1
+
+; Register Configuration End
+; Register Write Count = 86
+
+;======================================================================
